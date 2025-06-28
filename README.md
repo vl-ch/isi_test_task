@@ -2,8 +2,6 @@
 
 This is a test task project "**Simple chat**". The task requirements were provided in a PDF file so I do not double them here.
 
-DJango Admin Panel credentials: username - "admin", password - "admin".
-
 ## Endpoints
 The endpoints are provided with predefined localhost URLs to meet the docker image configuration.
 
@@ -169,5 +167,3 @@ You also could use `-d` key to launch the process on background:
 ```
 docker run -d --name test-task-container -p 8000:8000 test-task-app:latest
 ```
-
-There are several autotests will be executed on the first launch. The tests are in `app/chat/tests.py`.
